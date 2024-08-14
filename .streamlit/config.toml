@@ -1,0 +1,12 @@
+[theme]
+# Primary color
+primaryColor= "#d33682"
+
+# Background color main
+backgroundColor= "#002b36"
+
+# Background color side
+secondBackgroundColor= "#586e75"
+
+# Color used for all
+textColor="#fff"
