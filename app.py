@@ -20,8 +20,9 @@ complemented by hands-on experience in python development and real-time data pro
 """
 EMAIL = "yeswanthsoma83@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "www.linkedin.com/in/yeswanth-soma-266178211",
+    "LinkedIn": "https://www.linkedin.com/in/yeswanth-soma-266178211/",
     "GitHub": "https://github.com/Yesh2344",
+    "Projects": "https://google.com"
 }
 PROJECTS = {
     "🏆 ReadySetGo: Developed a gym website using Python, Django, HTML, and CSS with Amazon S3 for storage.",
