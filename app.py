@@ -8,7 +8,7 @@ current_dir=Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file=current_dir / "styles" / "main.css"
 resume_file =current_dir / "assests" / "Yeswanth Soma Resume.pdf"
 profile_pic=current_dir / "assests" / "profile-pic.png"
-
+python_gui=current_dir / "assests" / "gui.exe"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Yeswanth Soma Portfolio"
@@ -20,9 +20,9 @@ complemented by hands-on experience in python development and real-time data pro
 """
 EMAIL = "yeswanthsoma83@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/yeswanth-soma-266178211/",
+    "LinkedIn": "www.linkedin.com/in/yeswanth-soma-266178211",
     "GitHub": "https://github.com/Yesh2344",
-    "Projects": "https://google.com"
+    "Projects": "https://google.com",
 }
 PROJECTS = {
     "🏆 ReadySetGo: Developed a gym website using Python, Django, HTML, and CSS with Amazon S3 for storage.",
@@ -39,7 +39,8 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte=pdf_file.read()
     profile_pic=Image.open(profile_pic)
-
+with open(python_gui, "rb") as exe_file:
+    EXEbyte = exe_file.read()
 # --- HERO SECTION ---
 col1,col2 = st.columns(2,gap="small")
 with col1:
@@ -65,6 +66,7 @@ for index, (platform,link) in enumerate(SOCIAL_MEDIA.items()):
 # ---EXPERIENCE & QUALIFICATIONS ---
 st.write("#")
 st.subheader("Experience & Qualifications")
+st.write("---") 
 st.write(
     """
 - ✔️ CISCO (Internship): Focused on packet tracing and web development.
@@ -77,6 +79,7 @@ st.write(
 # ---SKILLS---
 st.write("#")
 st.subheader("Skills")
+st.write("---")
 st.write(
     """
 - 👩‍💻CLOUD TECHNOLOGIES: Google Cloud Platform (GCP) • AWS Basics • Cloud Deployment
@@ -154,3 +157,59 @@ st.write("""
 -    🏆 Predictive Analytics with Amazon Machine Learning: Created predictive models for business metrics
 """
     )
+
+# --- Contact Me --
+st.subheader(":mailbox: Contact Me")
+st.write("---")
+contact_form="""
+<form action="https://formsubmit.co/yeswanthsoma77@gmail.com" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your Name" required>
+     <input type="email" name="email" placeholder="Your Email" required>
+     <textarea name="message" placeholder="Your Message" requried></textarea>
+     <button type="submit">Send</button>
+</form>"""
+st.markdown(contact_form,unsafe_allow_html=True)
+
+st.write("#")
+st.write("Like how i made my portfolio?😛😛")
+st.write("Please send me feedback by downloading my python GUI.😊")
+st.download_button(label="Download Application",
+                   data=EXEbyte,
+                   file_name=python_gui.name,
+                   mime="application/octect-stream")
+
+
+
+# --- CUSTOM CSS FOR FOOTER ---
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #002b36;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    }
+    .footer-quote {
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .footer-copyright {
+        font-size: 12px;
+        color: #555;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# --- FOOTER CONTENT ---
+st.markdown("""
+    <div class="footer">
+        <div class="footer-quote">"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present." — Kung Fu Panda</div>
+        <div class="footer-copyright">© 2024 Yeswanth Soma. All rights reserved.</div>
+    </div>
+""", unsafe_allow_html=True)
