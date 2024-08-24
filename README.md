@@ -32,7 +32,7 @@ This portfolio is designed to provide an overview of my professional journey, in
 │   └── main.css
 ├── 📄 app.py
 └── 📄 README.md
-
+```
 assets/: Contains images, resume PDF, and the executable file for feedback.
 styles/: Contains the main CSS file for custom styling.
 app.py: The main Streamlit app script.
@@ -41,4 +41,21 @@ README.md: This file.
 1. Clone the Repository:
 git clone https://github.com/Yesh2344/Yeswanth-Soma-Portfolio.git
 2. Navigate to project directory:
-cd 
+cd
+3. Install the requirements:
+pip install -r requirements.txt
+4. Run the python code
+Open command prompt and run streamlit run app.py
+It will automatically open in localhost browser.
+
+🌟 Features Highlight
+Inspirational Footer
+At the bottom of the page, you'll find an inspirational quote from Kung Fu Panda and a note that all rights are reserved.
+
+Downloadable Application
+If you love the way the portfolio is styled, you can download an application to send me feedback.
+
+Responsive Design
+The portfolio adjusts well to different screen sizes, ensuring a seamless experience on both desktop and mobile.
+
+© 2024 Yeswanth Soma. All rights reserved.
