@@ -1,0 +1,62 @@
+{
+    "title": "Career Snapshot",
+    "events": [
+      {
+        "start_date": {
+          "year": "2020",
+          "month": "6"
+        },
+        "end_date": {
+          "year": "2020",
+          "month": "8"
+        },
+        "text": {
+          "headline": "CISCO Packet Software Developer",
+          "text": "<ul><li>Packet Tracing: Conducted in-depth packet tracing to analyze network performance.</li><li>Web Development: Contributed to web-based tools development.</li><li>Real-world Implementation: Improved network security and application efficiency.</li></ul>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month": "5"
+        },
+        "end_date": {
+          "year": "2022",
+          "month": "8"
+        },
+        "text": {
+          "headline": "Google Cloud Platform Analyzer",
+          "text": "<ul><li>Cloud Deployment: Deployed and managed scalable applications on GCP.</li><li>Automation: Developed scripts to streamline operations.</li><li>Collaboration: Worked with cross-functional teams to improve outcomes.</li></ul>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month": "7"
+        },
+        "end_date": {
+          "year": "2022",
+          "month": "11"
+        },
+        "text": {
+          "headline": "Channel Pro Front/Backend Developer",
+          "text": "<ul><li>Full Stack Development: Worked on backend (Django) and frontend (WordPress).</li><li>Python Integration: Developed scripts for task automation.</li><li>Maintenance: Regularly updated the company website.</li></ul>"
+        }
+      },
+      {
+        "start_date": {
+          "year": "2022",
+          "month": "3"
+        },
+        "end_date": {
+          "year": "2022",
+          "month": "5"
+        },
+        "text": {
+          "headline": "Prutor IITK Python Developer",
+          "text": "<ul><li>Backend Development: Developed and optimized backend systems for an online bookstore.</li><li>API Management: Ensured smooth operation and integration of APIs.</li><li>Performance Enhancement: Improved efficiency and reliability.</li></ul>"
+        }
+      }
+    ]
+  }
+  
