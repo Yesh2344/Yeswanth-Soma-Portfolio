@@ -33,7 +33,8 @@ complemented by hands-on experience in python development and real-time data pro
 """
 EMAIL = "yeswanthsoma83@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/yeswanth-soma-266178211",
+    "LinkedIn": "https://www.linkedin.com/in/yeswanth-soma-266178211/",
+
     "GitHub": "https://github.com/Yesh2344",
 }
 PROJECTS = {
@@ -826,3 +827,4 @@ st.download_button(label="Download Application",
                 data=EXEbyte,
                 file_name=python_gui.name,
                 mime="application/octect-stream")
+
