@@ -268,13 +268,13 @@ st.write(
     }
     </style>
     <div class="exp-section">
-        ✔️ CISCO (Internship): At CISCO, I specialized in packet tracing and web development. I utilized advanced network analysis tools to enhance the accuracy of packet tracing, which led to a 20% improvement in network performance and reliability. Additionally, I contributed to the development of web applications, which streamlined internal processes and improved user engagement, resulting in a more efficient workflow for the development team.
+        ✔️ Google Software Engineer Intern (May 2022 - January 2023) 🅖 Improved TPU architecture, achieving a 50% boost in reliability and performance. Optimized workflows for a 70% increase in operational efficiency. Developed diagnostic tools that reduced issue resolution time by 40%.
         <br><br>
-        ✔️ Channel Pro (Intern): During my internship at Channel Pro, I was instrumental in both backend and frontend development using Django and WordPress. I developed robust backend functionalities with Django, which enhanced the website's performance and scalability, leading to a 30% increase in site traffic. On the frontend, I implemented user-friendly interfaces with WordPress, improving the website’s conversion rate by 25% and significantly boosting customer satisfaction.
+        ✔️ Channel Pro Communications Full Stack Developer (February 2019 - May 2022) 🚧 Led full stack development using Django and WordPress, ensuring a seamless user experience. Automated routine tasks with Python, enhancing website functionality. Delivered over 20 projects, increasing client satisfaction by 50%.
         <br><br>
-        ✔️ Prutor@IITK (Intern): At Prutor, I developed the backend for an online bookstore using Python. I created efficient server-side components that streamlined inventory management and transaction processing, resulting in a 40% reduction in system errors and a 15% increase in overall sales. My work ensured a smooth and reliable user experience, contributing to the platform’s growth and customer retention.
+        ✔️ Prutor IITK Data Analyst (February 2019 - May 2019) 🏫 Collected and preprocessed data to ensure accuracy for analysis. Created reports and dashboards that facilitated data-driven decisions. Implemented process improvements, enhancing overall efficiency.
         <br><br>
-        ✔️ Google (Internship): During my time at Google, I worked on scalable cloud applications using Google Cloud Platform (GCP). I designed and implemented solutions that optimized data processing and enhanced application scalability, leading to a 50% reduction in latency and a 35% improvement in system reliability. My contributions supported the deployment of high-performance cloud applications, which significantly benefited the company’s large-scale projects and operational efficiency.
+        ✔️ CISCO Python Engineer (September 2018 - January 2019) 🌐 Developed and optimized applications to enhance network infrastructure. Collaborated with cross-functional teams to implement scalable solutions and automated processes, improving operational efficiency. Supported integration of Python with various Cisco technologies, driving innovation and performance.
     </div>
     """,
     unsafe_allow_html=True)
@@ -382,43 +382,45 @@ st.markdown("""
 # Work experience data
 jobs = [
     {
-        "title": "CISCO Packet Software Developer",
-        "date": "June 2020 - August 2020",
-        "icon": "🌐",
-        "details": [
-            "Packet Tracing: Conducted in-depth packet tracing exercises to analyze and optimize network performance for real-world applications.",
-            "Web Development: Contributed to the development of web-based tools, focusing on both backend and frontend integration using modern technologies.",
-            "Real-world Implementation: Applied theoretical knowledge in practical scenarios, improving the network security and efficiency of web applications."
-        ]
-    },
-    {
-        "title": "Google Cloud Platform Analyzer",
-        "date": "May 2022 - August 2022",
+        "title": "Google Software Engineer Intern",
+        "date": "May 2022 - January 2023    ",
         "icon": "🅖",
         "details": [
-            "Cloud Deployment: Deployed and managed scalable applications on Google Cloud Platform (GCP), ensuring efficient use of cloud resources.",
-            "Automation: Developed automated scripts to streamline cloud operations, enhancing deployment speed and reliability.",
-            "Collaboration: Worked with cross-functional teams to implement cloud-based solutions, improving overall project outcomes."
+            "Architecting TPU System Software: I improved and proposed a new architecture for TPUs, resulting in a remarkable 50% increase in system reliability and performance.",
+            "Investigating System Efficiency: I focused on optimizing TPU workflows and processes, which led to a 70% boost in operational efficiency.",
+            "Generating Diagnostic Tools: I developed automated diagnostic and performance evaluation tools that cut issue resolution time by 40%."
         ]
     },
     {
-        "title": "Channel Pro Front/Backend Developer",
-        "date": "July 2022 - November 2022",
+        "title": "Channel Pro Communications Full Stack Developer",
+        "date": "February 2019 - May 2022",
         "icon": "🚧",
         "details": [
             "Full Stack Development: Worked on both backend (Django) and frontend (WordPress) aspects of the company's website, ensuring a seamless user experience.",
             "Python Integration: Developed Python scripts to automate routine tasks, enhancing the functionality and efficiency of the website.",
-            "Maintenance & Updates: Regularly updated and maintained the website to keep it running smoothly, addressing any technical issues promptly."
+            "Maintenance & Updates: Regularly updated and maintained the website to keep it running smoothly, addressing any technical issues promptly.",
+            "Project Impact and Client Service: Delivered over 20 successful client projects, providing tailored solutions that met specific business needs and contributed to a 50% increase in client satisfaction and retention."
         ]
     },
     {
-        "title": "Prutor IITK Python Developer",
-        "date": "March 2022 - May 2022",
+        "title": "Prutor IITK Data Analyst",
+        "date": "February 2019 - May 2019",
         "icon": "🏫",
         "details": [
-            "Backend Development: Developed and optimized backend systems for an online bookstore, focusing on Python frameworks for robust performance.",
-            "API Management: Ensured smooth operation and integration of APIs with the bookstore's website, enabling seamless user interactions.",
-            "Performance Enhancement: Worked on improving the efficiency and reliability of the website by optimizing code and reducing loading times."
+            "Data Collection & Preprocessing: I gathered and preprocessed data from diverse sources, ensuring its accuracy and integrity for analysis.",
+            "Reporting & Visualization: I created comprehensive reports and dashboards that highlighted key metrics for stakeholders, facilitating data-driven decisions.",
+            "Process Improvement: I recommended and implemented improvements to data collection methods and analysis techniques, enhancing efficiency."
+        ]
+    },
+    {
+        "title": "CISCO Python Engineer",
+        "date": "September 2018 - January 2019",
+        "icon": "🌐",
+        "details": [
+            "Application Development: Develop, maintain, and optimize applications that enhance network infrastructure and services.",
+            "Collaboration: Work with cross-functional teams to implement scalable solutions.",
+            "Process Automation: Automate processes to improve operational efficiency.",
+            "Integration Support: Support the integration of Python with various Cisco technologies."
         ]
     }
 ]
@@ -542,8 +544,8 @@ cards = [
         "image": "assests/project3.png"
     },
     {
-        "title": "Project 4", 
-        "date": "August 1", 
+        "title": "Swastik Portfolio", 
+        "date": "August 15", 
         "description": """
         Developed a responsive website using HTML5, CSS3, and JavaScript. 
         Delivered a clean, modern design that adapts seamlessly across all devices.
@@ -654,6 +656,9 @@ for i, card in enumerate(cards):
         else:
             st.warning(f"Image not found: {image_path}")
 
+st.markdown(f"""
+<a href="https://github.com/Yesh2344?tab=repositories" target="_blank" style="text-decoration: none; color: #00ccff; font-weight: bold;">See More Projects</a>
+""", unsafe_allow_html=True)
 
 st.write(" ")
 st.subheader("🙋‍♂️Testimonials From Peers & Coworkers")
