@@ -268,7 +268,7 @@ st.write(
     }
     </style>
     <div class="exp-section">
-        ✔️ Google Software Engineer Intern (May 2022 - January 2023) 🅖 Improved TPU architecture, achieving a 50% boost in reliability and performance. Optimized workflows for a 70% increase in operational efficiency. Developed diagnostic tools that reduced issue resolution time by 40%.
+        ✔️ Google Software Engineer (May 2022 - January 2023) 🅖 Improved TPU architecture, achieving a 50% boost in reliability and performance. Optimized workflows for a 70% increase in operational efficiency. Developed diagnostic tools that reduced issue resolution time by 40%.
         <br><br>
         ✔️ Channel Pro Communications Full Stack Developer (February 2019 - May 2022) 🚧 Led full stack development using Django and WordPress, ensuring a seamless user experience. Automated routine tasks with Python, enhancing website functionality. Delivered over 20 projects, increasing client satisfaction by 50%.
         <br><br>
@@ -382,7 +382,7 @@ st.markdown("""
 # Work experience data
 jobs = [
     {
-        "title": "Google Software Engineer Intern",
+        "title": "Google Software Engineer",
         "date": "May 2022 - January 2023    ",
         "icon": "🅖",
         "details": [
