@@ -52,3 +52,5 @@ streamlit run app.py
 After that it will automatically open the localhost.
 "# yeshportfolio" 
 "# yeshportfolio" 
+
+Updated the UI to a latest one
