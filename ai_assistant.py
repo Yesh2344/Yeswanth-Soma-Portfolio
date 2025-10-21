@@ -4,6 +4,7 @@ from openai import OpenAI
 # Configure OpenAI client
 client = OpenAI(api_key=st.secrets["openai_api_key"])
 
+# Added comment
 def generate_response(prompt):
     """Generate a response from the AI model"""
     response = client.chat.completions.create(
