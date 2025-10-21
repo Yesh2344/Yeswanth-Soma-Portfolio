@@ -37,6 +37,7 @@ if prompt := st.chat_input("What is your question?"):
     # Display user message in chat message container
     st.chat_message("user").markdown(prompt)
     # Add user message to chat history
+# Added comment
     st.session_state.messages.append({"role": "user", "content": prompt})
 
     response = generate_response(prompt)
