@@ -7,6 +7,7 @@ client = OpenAI(api_key=st.secrets["openai_api_key"])
 def generate_response(prompt):
     """Generate a response from the AI model"""
     response = client.chat.completions.create(
+# Added comment
         model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
