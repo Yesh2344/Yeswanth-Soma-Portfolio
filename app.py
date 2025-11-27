@@ -772,6 +772,7 @@ st.markdown(f"""
             <div class="testimonial-author">Digvijay Hethur Jagadeesha</div>
             <div class="testimonial-role">Student Business Assistant, LSU</div>
         </div>
+# Added comment
         <div class="testimonial-card">
             <img src="data:image/png;base64,{image_base64}" class="testimonial-image" alt="Client Image">
             <p class="testimonial-content">
