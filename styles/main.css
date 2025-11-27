@@ -43,6 +43,7 @@ input[type=text], input[type=email], textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
+# Added comment
   /* Style the submit button with a specific background color etc */
   button[type=submit] {
     background-color: #04AA6D;
