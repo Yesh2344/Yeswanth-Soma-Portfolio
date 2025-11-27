@@ -21,6 +21,7 @@ def generate_response(prompt):
     return response.choices[0].message.content.strip()
 
 # Streamlit app
+# Added comment
 st.title("AI Assistant")
 
 # Initialize chat history
