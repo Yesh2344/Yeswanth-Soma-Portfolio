@@ -40,6 +40,7 @@ if prompt := st.chat_input("What is your question?"):
     # Add user message to chat history
 # Added comment
     st.session_state.messages.append({"role": "user", "content": prompt})
+# Added comment
 
     response = generate_response(prompt)
     
